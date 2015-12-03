@@ -15,6 +15,10 @@ The parameters:
 The function takes an argument which is usually 1 (undefined error). Also see Android section.
 * url: A URL to a document. Any cookies the system has for this server are passed along. This ensures that authenticated downloads also work. 
 
+## Amazon Fire OS
+
+See Android section below. The plugin uses the same exact source code for both Amazon Fire OS and Android.
+
 ## Android
 
 The plugin downloads a document and starts an intent, so that other installed applications can open it.
