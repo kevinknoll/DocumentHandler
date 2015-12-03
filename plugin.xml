@@ -19,6 +19,18 @@
     <clobbers target="handleDocumentWithURL" />
   </js-module>
 
+  <platform name="amazon-fireos">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="DocumentHandler" >
+        <param name="android-package" value="ch.ti8m.phonegap.plugins.DocumentHandler"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/DocumentHandler.java" target-dir="src/ch/ti8m/phonegap/plugins" />
+
+  </platform>
+
   <platform name="android">
 
 		<config-file target="res/xml/config.xml" parent="/*">
